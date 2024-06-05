@@ -1,5 +1,5 @@
 
-import Card from "../components/Project";
+import Card from "../Project";
 
 const projects = [
     {

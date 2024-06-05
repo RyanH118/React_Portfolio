@@ -1,5 +1,5 @@
 import React from 'react';
-import RyanImage from '../assets/Ryan.jpg'; // Import the image from the assets folder
+import RyanImage from '../../assets/Ryan.jpg'; // Import the image from the assets folder
 
 export default function About() {
   return (

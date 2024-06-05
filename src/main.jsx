@@ -5,12 +5,12 @@ import './index.css';
 
 
 import App from './App.jsx';
-import Home from './pages/Home.jsx';
-import About from './pages/About.jsx';
-import Portfolio from './pages/Portfolio.jsx'; 
-import Error from './pages/Error.jsx';
-import Contact from './pages/Contact.jsx';
-import Resume from './pages/Resume.jsx';
+import Home from './components/pages/Home.jsx';
+import About from './components/pages/About.jsx';
+import Portfolio from './components/pages/Portfolio.jsx'; 
+import Error from './components/pages/Error.jsx';
+import Contact from './components/pages/Contact.jsx';
+import Resume from './components/pages/Resume.jsx';
 
 
 const router = createBrowserRouter([
