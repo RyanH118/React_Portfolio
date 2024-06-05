@@ -1,17 +1,20 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-const Footer = () => {
+export default function Footer() {
   return (
-    <footer>
-      <a href="https://github.com/Ryanh118" target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon icon={faGithub} />
-      </a>
-      <a href="https://www.linkedin.com/in/ryanh118/" target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon icon={faLinkedin} />
-      </a>
+    <footer className="footer mt-5 py-3 bg-light fixed-bottom">
+      <div className="container text-center">
+        <a href="https://github.com/Ryanh118" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faGithub} size="2x" className="text-dark mx-2" />
+        </a>
+        <a href="https://www.linkedin.com/in/ryanh118/" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faLinkedin} size="2x" className="text-dark mx-2" />
+        </a>
+        <a href="https://www.instagram.com/af1_ryan/" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faInstagram} size="2x" className="text-dark mx-2" />
+        </a>
+      </div>
     </footer>
   );
 };
-
-export default Footer;
