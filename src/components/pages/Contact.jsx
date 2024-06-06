@@ -6,6 +6,12 @@ export default function Contact() {
   const [message, setMessage] = useState('');
   const [submitted, setSubmitted] = useState(false);
 
+  const Styles = {
+    color: {
+      color: "#ebf0f6"
+    }
+  }
+
   const handleSubmit = (event) => {
     event.preventDefault();
     // Add your form submission logic here, e.g. API call or email send
@@ -15,11 +21,11 @@ export default function Contact() {
 
   return (
     <div className="container py-5">
-      <h1 className="display-4">Contact Me</h1>
-      <p className="lead">Fill out the form below!</p>
+      <h1 style={Styles.color} className="display-4">Contact Me</h1>
+      <p style={Styles.color} className="lead">Fill out the form below!</p>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label for="name">Name:</label>
+          <label style={Styles.color} for="name">Name:</label>
           <input
             type="text"
             className="form-control"
@@ -30,7 +36,7 @@ export default function Contact() {
           />
         </div>
         <div className="form-group">
-          <label for="email">Email:</label>
+          <label style={Styles.color} for="email">Email:</label>
           <input
             type="email"
             className="form-control"
@@ -41,7 +47,7 @@ export default function Contact() {
           />
         </div>
         <div className="form-group">
-          <label for="message">Message:</label>
+          <label style={Styles.color} for="message">Message:</label>
           <textarea
             className="form-control"
             id="message"

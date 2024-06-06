@@ -5,7 +5,6 @@ import './index.css';
 
 
 import App from './App.jsx';
-import Home from './components/pages/Home.jsx';
 import About from './components/pages/About.jsx';
 import Portfolio from './components/pages/Portfolio.jsx'; 
 import Error from './components/pages/Error.jsx';
@@ -21,7 +20,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
+        element: <About />,
       },
       {
         path: '/About',
@@ -45,5 +44,10 @@ const router = createBrowserRouter([
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+  <div style={{
+    backgroundColor: '#364e68',
+    height: '100vh',
+  }}>
   <RouterProvider router={router} />
+  </div>
 );

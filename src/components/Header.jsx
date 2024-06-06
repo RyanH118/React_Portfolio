@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Header() {
   return (
-    <header className="navbar navbar-expand-lg navbar-light bg-light">
+    <header style={{ backgroundColor: '#98ccd3' }} className="navbar navbar-expand-lg ">
       <div className="container">
         <h1 className="navbar-brand">
           <Link to="/" className="text-dark text-decoration-none">

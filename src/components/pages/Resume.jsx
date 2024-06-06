@@ -1,13 +1,19 @@
 import React from 'react';
 
+const Styles = {
+  color: {
+    color: "#ebf0f6"
+  }
+}
+
 export default function Resume() {
   return (
     <div className="container">
-      <h1>Resume</h1>
-      <span>Download my</span> <a className="text-decoration-none" href="resume.pdf" download="Resume.pdf">resume</a>
+      <h1 style={Styles.color}>Resume</h1>
+      <span style={Styles.color}>Download my</span> <a className="text-decoration-none" href="resume.pdf" download="Resume.pdf">resume</a>
 
       <div className="list-group">
-        <h2 className="list-group-item-heading">Front-end Proficiencies</h2>
+        <h2 style={Styles.color} className="list-group-item-heading">Front-end Proficiencies</h2>
         <ul className="list-group">
           <li className="list-group-item">HTML</li>
           <li className="list-group-item">CSS</li>
@@ -18,7 +24,7 @@ export default function Resume() {
           <li className="list-group-item">Materialize</li>
         </ul>
 
-        <h2 className="list-group-item-heading">Back-end Proficiencies</h2>
+        <h2 style={Styles.color} className="list-group-item-heading">Back-end Proficiencies</h2>
 
         <ul className="list-group">
           <li className="list-group-item">Node</li>

@@ -6,12 +6,12 @@ import { Row, Col } from 'react-bootstrap';
 export default function Project({ projects }) {
   return (
     <div className="container">
-      <h1>My Portfolio</h1>
+      <h1 style={{ color: '#ebf0f6' }}>My Portfolio</h1>
       <Row>
         {projects.map((project) => (
           <Col md={4} key={project.id}>
             <div className="card mb-4">
-              <img src={project.image} alt={project.title} />
+            <img src={project.image} alt={project.title} className="img-fluid" style={{ height: 200 }} />
               <h2>
                 <a href={project.link} className="text-decoration-none text-reset">
                   <span>{project.title}</span>

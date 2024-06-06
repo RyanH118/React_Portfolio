@@ -17,7 +17,7 @@ export default function Nav() {
         <li className="nav-item" key={tab.id}>
           <NavLink
             to={tab.to}
-            className={`nav-link ${activeTab === tab.id ? 'active' : ''}`}
+            className={`nav-link ${activeTab === tab.id ? 'active' : ''} text-dark`}
             onClick={() => setActiveTab(tab.id)}
           >
             {tab.label}
