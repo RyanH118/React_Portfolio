@@ -46,7 +46,7 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <div style={{
     backgroundColor: '#364e68',
-    height: '100vh',
+    height: '150vh',
   }}>
   <RouterProvider router={router} />
   </div>

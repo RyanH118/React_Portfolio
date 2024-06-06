@@ -3,7 +3,7 @@ import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-
 
 export default function Footer() {
   return (
-    <footer style={{ backgroundColor: '#98ccd3' }} className="footer mt-5 py-3 fixed-bottom">
+    <footer style={{ backgroundColor: '#98ccd3' }} className="footer mt-auto py-3 fixed-bottom">
       <div className="container text-center">
         <a href="https://github.com/Ryanh118" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} size="2x" className="text-dark mx-2" />

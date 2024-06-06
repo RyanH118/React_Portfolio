@@ -56,7 +56,7 @@ export default function Contact() {
             required
           />
         </div>
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" className="btn btn-primary mt-2">
           Send Message
         </button>
       </form>
