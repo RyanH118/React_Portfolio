@@ -8,7 +8,7 @@ const projects = [
         description: "Full Stack",
         githubURL: "https://github.com/RyanH118/The_Final_Frontier",
         link: "https://ryanh118.github.io/The_Final_Frontier/",
-        image: "src/assets/Frontier.png"
+        image: "../../assets//Frontier.png"
     },
     {
         id: 2,
@@ -16,7 +16,7 @@ const projects = [
         description: "Full Stack",
         githubURL: "https://github.com/P5YC0DR3AM3R/venueVoyager",
         link: "https://p5yc0dr3am3r.github.io/venueVoyager/",
-        image: "src/assets/Venue.png"
+        image: "../../assets//Venue.png"
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ const projects = [
         description: "MySQL",
         githubURL: "https://github.com/RyanH118/Note_Taker",
         link: "https://note-taker-qwr0.onrender.com",
-        image: "src/assets/Note.png"
+        image: "../../assets//Note.png"
     },
     {
         id: 4,
@@ -32,7 +32,7 @@ const projects = [
         description: "API",
         githubURL: "https://github.com/RyanH118/Weather_Forecast",
         link: "https://ryanh118.github.io/Weather_Forecast/",
-        image: "src/assets/Weather.png"
+        image: "../../assets//Weather.png"
     },
     {
         id: 5,
@@ -40,7 +40,7 @@ const projects = [
         description: "JavaScript",
         githubURL: "https://github.com/RyanH118/personal_blog",
         link: "https://ryanh118.github.io/personal_blog/",
-        image: "src/assets/Personal.png"
+        image: "../../assets//Personal.png"
     },
     {
         id: 6,
@@ -48,7 +48,7 @@ const projects = [
         description: "JavaScript",
         githubURL: "https://github.com/RyanH118/Payroll_Tracker",
         link: "https://ryanh118.github.io/Payroll_Tracker/",
-        image: "src/assets/Payroll.png"
+        image: "../../assets//Payroll.png"
     },
 ]
 
